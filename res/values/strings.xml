@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FocastWeatherTravel</string>
+    <string name="infotv1">
+        - Nhóm thực tập cơ sở K7E-CNTT
+    </string>
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

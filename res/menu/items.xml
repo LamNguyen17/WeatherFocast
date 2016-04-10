@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/music"
+        android:title="Nhạc nền"
+        android:icon="@drawable/music"
+        android:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/favourite"
+        android:title="Sở thích 3 miền"
+        android:icon="@drawable/favourite"
+        android:showAsAction="ifRoom">
+    </item>
+
+</menu>

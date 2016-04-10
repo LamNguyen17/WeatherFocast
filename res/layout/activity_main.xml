@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeBk"
+    android:background="@drawable/background21">
+
+    <TextView
+        android:id="@+id/tvDesigner"
+        android:layout_width="match_parent"
+        android:background="#CCCCCC"
+        android:layout_height="30dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingLeft="48dp"
+        android:textSize="12sp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="5dp"
+            android:text="Ba miền"
+            android:alpha="0.875"
+            android:id="@+id/btnBaMien"
+            android:background="@drawable/border_button"
+            android:layout_gravity="center_horizontal" />
+
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="60dp"
+            android:text="Tiện ích"
+            android:alpha="0.875"
+            android:id="@+id/btnWidget"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_button"
+            android:layout_gravity="center_horizontal" />
+
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="60dp"
+            android:text="Cài đặt"
+            android:alpha="0.875"
+            android:id="@+id/btnSetting"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_button"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="60dp"
+            android:text="Thông tin"
+            android:alpha="0.875"
+            android:id="@+id/btnThongTin"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/border_button"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+    <!--Source code by LamNguyen-->

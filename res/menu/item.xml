@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/music"
+        android:title="Nhạc nền"
+        android:icon="@drawable/music"
+        android:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/share"
+        android:title="Chia sẻ"
+        android:icon="@drawable/share"
+        android:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/location"
+        android:title="Vị trí hiện tại"
+        android:icon="@drawable/location"
+        android:showAsAction="ifRoom">
+    </item>
+
+</menu>
